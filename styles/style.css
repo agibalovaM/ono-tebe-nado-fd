@@ -12,7 +12,7 @@ header {
   display: flex;
   flex-flow: row nowrap;
   list-style: none;
-  margin-right: 38px;
+  margin-right: 40px;
 }
 
 .menu__item {
@@ -20,11 +20,16 @@ header {
   flex-flow: row nowrap;
   align-items: center;
   position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.13px;
+  letter-spacing: 0%;
 }
 
 .menu__item a {
   border-bottom: none;
 }
+
 
 .menu__item::before {
   content: "";
@@ -42,12 +47,15 @@ header {
 
 .navigation__item-typography {
   font-size: 18px;
-  line-height: 21px;
+  line-height: 24.3px;
   font-weight: 400;
   text-decoration: none;
   border-bottom: 1px solid #000;
   cursor: pointer;
-
+  width: 264;
+  height: 24;
+  left: 50.57px;
+  border-width: 1px;
 }
 
 .navigation__item-typography_no-border {
@@ -64,6 +72,9 @@ header {
 .adress_header {
   max-width: 240px;
   margin-left: auto;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 .adress-list {
@@ -103,7 +114,7 @@ header {
   text-transform: uppercase;
   display: grid;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 21px;
   color: #fff;
   padding-top: 165px;
 }
@@ -114,10 +125,12 @@ header {
 
 .aligned-text_center {
   text-align: center;
+  margin-left: 30px;
 }
 
 .aligned-text_right {
   text-align: right;
+  margin-right: -30px;
 }
 
 .description {
@@ -126,14 +139,19 @@ header {
   text-transform: uppercase;
   align-items: center;
   gap: 78px;
-  font-size: 22px;
-  font-weight: 100px;
+  font-size: 21px;
+  font-weight: 400px;
   line-height: 28px;
   color: #fff;
   position: relative;
   z-index: 1;
   word-spacing: 22px;
   padding-bottom: 50px;
+  bottom: 2px;
+}
+
+.description-text {
+  margin-left: auto;
 }
 
 .bet-button {
@@ -173,7 +191,7 @@ header {
   font-size: 40px;
   font-weight: 700;
   line-height: 46.96px;
-  margin: 3px 0 76px;
+  margin: 3px 0 60px;
   margin-left: 0px;
   display: flex;
   justify-content: start;
@@ -193,7 +211,7 @@ header {
   flex-wrap: wrap;
   gap: 25px;
   list-style: none;
-  margin: 27px 24px 30px;
+  margin: 22px 24px 30px;
 }
 
 .lots li {
@@ -208,7 +226,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 20px;
+  gap: 34px;
   height: 100%;
   position: relative;
   z-index: 1;
@@ -241,12 +259,13 @@ header {
   position: relative;
   margin: 0 64px;
   width: 192px;
-  height: 25px;
   border-width: 1px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .about {
-  margin: 0 24px 180px 24px;
+  margin: 0 24px 200px 24px;
   width: 1052px;
 }
 
@@ -254,7 +273,8 @@ header {
   display: grid;
   grid-template-columns: 334px 1fr;
   justify-content: center;
-  gap: 25px;
+  gap: 24px;
+  margin-right: 5px;
 }
 
 .about__container_logo {
@@ -285,9 +305,8 @@ header {
 .text_about {
   font-weight: 400;
   font-size: 20px;
-  line-height: 24px;
-  margin: 24px 0 0;
-
+  line-height: 21px;
+  margin: 16px 0 0;
 }
 
 .footer {
@@ -301,7 +320,7 @@ header {
 .subject_list {
   font-size: 18px;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 20px;
   justify-content: center;
   display: flex;
 }
@@ -311,6 +330,7 @@ header {
   flex-direction: column;
   align-items: center;
   list-style: none;
+
 }
 
 
