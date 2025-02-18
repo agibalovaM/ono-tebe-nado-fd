@@ -54,7 +54,6 @@ header {
   cursor: pointer;
   width: 264;
   height: 24;
-  left: 50.57px;
   border-width: 1px;
 }
 
@@ -63,13 +62,13 @@ header {
 }
 
 
-.header_logo {
+.header__logo {
   display: block;
   width: 148px;
   height: 105px;
 }
 
-.adress_header {
+.address__header {
   max-width: 240px;
   margin-left: auto;
   font-size: 18px;
@@ -77,7 +76,7 @@ header {
   font-weight: 400;
 }
 
-.adress-list {
+.address__list {
   display: flex;
   flex-flow: column nowrap;
 }
@@ -191,7 +190,7 @@ header {
   font-size: 40px;
   font-weight: 700;
   line-height: 46.96px;
-  margin: 3px 0 60px;
+  margin: 3px 0 77px;
   margin-left: 0px;
   display: flex;
   justify-content: start;
@@ -265,7 +264,7 @@ header {
 }
 
 .about {
-  margin: 0 24px 200px 24px;
+  margin: 0 24px 180px 24px;
   width: 1052px;
 }
 
@@ -305,8 +304,7 @@ header {
 .text_about {
   font-weight: 400;
   font-size: 20px;
-  line-height: 21px;
-  margin: 16px 0 0;
+  line-height: 24px;
 }
 
 .footer {
@@ -317,7 +315,7 @@ header {
   margin: 0 0 82px 0;
 }
 
-.subject_list {
+.subject__list {
   font-size: 18px;
   font-weight: 400;
   line-height: 20px;
@@ -325,7 +323,7 @@ header {
   display: flex;
 }
 
-.subject_list ul {
+.subject__list ul {
   display: flex;
   flex-direction: column;
   align-items: center;
